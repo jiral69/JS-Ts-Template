@@ -1,0 +1,21 @@
+{
+  "name": "fullstack-electron-template",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node index.js",
+    "compile": "tsc",
+    "dist": "npm run compile && electron-builder"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "electron": "^45.2.3",
+    "electron-builder": "^26.18.0",
+    "electron-nightly": "^47.0.0-nightly.20261106"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}

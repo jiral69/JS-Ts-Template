@@ -1,0 +1,8 @@
+{
+  "name": "fullstack-electron-template",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "cd client && npm install && cd ../server && npm install",
+    "build-ui": "cd client && npm run build"
+  }
+}
