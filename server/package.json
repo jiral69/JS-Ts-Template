@@ -2,7 +2,7 @@
   "name": "fullstack-electron-template",
   "version": "1.0.0",
   "scripts": {
-    "dev": "ts-node index.js",
+    "dev": "tsx index.ts",
     "compile": "tsc",
     "dist": "npm run compile && electron-builder"
   },
@@ -12,7 +12,10 @@
     "@types/express": "^5.0.6",
     "electron": "^45.2.3",
     "electron-builder": "^26.18.0",
-    "electron-nightly": "^47.0.0-nightly.20261106"
+    "electron-nightly": "^47.0.0-nightly.20261106",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
   },
   "dependencies": {
     "cors": "^2.8.6",
